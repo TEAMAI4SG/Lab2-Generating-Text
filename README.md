@@ -42,13 +42,13 @@ $0.02 (View your OpenAI usage [here](https://platform.openai.com/usage))
 
 2. To set up your development environment, you will need to install the OpenAI Python library, which we will use to generate text in this lab. You can run the following shell scripts, which are also **pre-written** in the first cell of your Colab notebook, to do so.
 
-```python
+\`\`\`Python
 # Uninstall Colab's preinstalled modules which have dependency conflicts with OpenAI
 !pip uninstall tensorflow-probability -y 
 !pip uninstall llmx -y 
 
 # Install the OpenAI Python library
 !pip install --upgrade openai
-```
+\`\`\`
 
 3. Now, locate your OpenAI API key that you have saved in Lab 1. You may already have one from a previous lab; if not, please refer to Lab 1 for instructions. If you cannot find your API key anymore, you may need to create a new one [here](https://platform.openai.com/api-keys).
