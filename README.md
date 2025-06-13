@@ -42,7 +42,7 @@ $0.02 (View your OpenAI usage [here](https://platform.openai.com/usage))
 
 2. To set up your development environment, you will need to install the OpenAI Python library, which we will use to generate text in this lab. You can run the following shell scripts, which are also **pre-written** in the first cell of your Colab notebook, to do so.
 
-```'Python'
+```Python
 # Uninstall Colab's preinstalled modules which have dependency conflicts with OpenAI
 !pip uninstall tensorflow-probability -y 
 !pip uninstall llmx -y 
@@ -52,3 +52,29 @@ $0.02 (View your OpenAI usage [here](https://platform.openai.com/usage))
 ```
 
 3. Now, locate your OpenAI API key that you have saved in Lab 1. You may already have one from a previous lab; if not, please refer to Lab 1 for instructions. If you cannot find your API key anymore, you may need to create a new one [here](https://platform.openai.com/api-keys).
+
+
+## 📥 Importing and Initializing OpenAI
+
+1. Now that you have the OpenAI Python library installed, we can begin to code. At the top of your cell, import OpenAI.
+
+```Python
+from openai import OpenAI
+```
+
+2. Next, initialize an OpenAI object. This will allow you to use the OpenAI API to communicate with OpenAI’s models. Make sure to **replace your-api-key-here** with your API key.
+
+```Python
+client = OpenAI(api_key='your-api-key-here')
+```
+
+## 💬 Function to Generate a Response from the Model
+
+1. Create a function titled get_completion with 2 parameters: prompt and model= "gpt-3.5-turbo" 
+      - This function will prompt the specified OpenAI model with the user’s input (prompt) to generate 
+        and return a desired response.
+
+```Python
+def get_completion(prompt, model="gpt-3.5-turbo"):
+```
+
