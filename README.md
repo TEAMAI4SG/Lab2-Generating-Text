@@ -15,7 +15,8 @@ By the end of this lab, you will be equipped with the practical skills to harnes
 - **Understand the Capabilities of OpenAI's Language Models:** Gain a foundational understanding of what OpenAI's language models like GPT-3.5-turbo are capable of, including their strengths and limitations in text generation.
 - **Develop Skills in Using OpenAI's API for Text Generation:** Learn to effectively utilize OpenAI's API to generate text, including setting up the necessary development environment, understanding API documentation, and executing API calls.
 - **Implement Python Functions for Customized Text Generation:** Acquire the ability to write Python functions that interact with OpenAI’s models, enabling tailored text generation based on specific user inputs and scenarios.
-- **Explore and Analyze Different Text Generation Techniques:** Experiment with various prompts and settings to understand how different inputs influence the AI's text output.
+- **Explore and Analyze Different Text Generation Techniques:** Experiment with various prompts and settings to understand how different inputs influence the AI's text output, thereby gaining insights into the mechanics of AI-driven text generation.
+
 
 ---
 
