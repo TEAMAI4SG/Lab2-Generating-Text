@@ -165,6 +165,7 @@ Please follow these steps before submitting:
 ## 🔗 References
 
 [OpenAI Quickstart](https://platform.openai.com/docs/quickstart?lang=ChatCompletions)
+
 [OpenAI Chat API Docs](https://platform.openai.com/docs/api-reference/chat)
 
 
