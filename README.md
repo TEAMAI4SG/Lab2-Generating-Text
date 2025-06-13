@@ -48,6 +48,6 @@ $0.02 (View your OpenAI usage [here](https://platform.openai.com/usage))
 !pip uninstall llmx -y 
 
 # Install the OpenAI Python library
-!pip install --upgrade openai
+!pip install --upgrade openai```
 
-3. Now, locate your OpenAI API key that you have saved in Lab 1. You may already have one from a previous lab; if not, please refer to Lab 1 for instructions. If you cannot find your API key anymore, you may need to create a new one [here](https://platform.openai.com/api-keys).
+3. Now, locate your OpenAI API key that you have saved in Lab 1. You may already have one from a previous lab; if not, please refer to Lab 1 for instructions. If you cannot find your API key anymore, you may need to create a new one [here]
