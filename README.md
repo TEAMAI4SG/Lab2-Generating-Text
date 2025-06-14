@@ -1,4 +1,4 @@
-# Lab 2a: Generating Text with OpenAI’s Models
+# Lab 2: Generating Text with OpenAI’s Models
 
 ---
 
